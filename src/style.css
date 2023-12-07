@@ -1,0 +1,100 @@
+/* global css */
+*{
+    box-sizing: border-box;
+}
+
+.container{ 
+    padding: 0 90px ;
+    margin: 0 auto ;
+}
+
+body{
+    font-family: 'cairo' , sans-serif ;
+    margin :0;
+
+}
+ /* Header*/
+ 
+.d-flex {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
+
+}
+ .t-flex{
+    display: flex;
+    align-items:center;
+   justify-content:flex-end;
+   width: 80px;
+   
+ }
+
+
+ /*enregistrer (registre +participate +login )*/
+ .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+ }
+
+ form{
+    width:300px;
+    box-shadow: 0px 2px 15px rgb(0 ,0,0,0.1);
+    padding: 20px;
+
+ }
+
+ input{
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 1px 1px rgba(0 ,0,0,0.1);
+    transition: 0.3s;
+    margin-bottom: 8px;
+}
+
+input:hover{
+    background-color:aliceblue ;
+}
+
+input:focus{
+    border: 2px solid #86b7fe;
+}
+
+
+
+input::placeholder{
+    color:rgba(0,0,0,0.3);
+}
+.enregistrer button,.registre-nav{
+    outline:none;
+    border:none;
+    background-color:#86b7fe;
+    padding: 10px ,20px;
+    color:white;
+    border-radius: 3px;
+    cursor:pointer;
+    transition: 0.3s;
+    border:2px solid white ;
+    font-weight: bold;
+    height: 30px;
+    width : 90px;
+    text-decoration: none;
+
+}
+
+.enregistrer button:hover,.registre-nav:hover{
+   background-color:white;
+   border: 2px solid #86b7fe;
+   color:#86b7fe ;
+
+}
+p{
+    color: red;
+    font-size: 12px;
+    margin-top: 0px;
+}
